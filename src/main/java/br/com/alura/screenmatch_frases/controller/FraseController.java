@@ -13,6 +13,6 @@ public class FraseController {
 
     @GetMapping("/series/frases")
     public FraseDTO obterFraseAleatoria() {
-
+        return servico.obterFraseAleatoria();
     }
 }
